@@ -4,7 +4,7 @@ const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
       {/* Navigation Bar */}
-      <Box as="nav" bg="gray.800" color="white" py={4}>
+      <Box as="nav" bg="#00456e" color="white" py={4}>
         <Flex justify="space-between" align="center" px={8}>
           <Heading as="h1" size="lg" letterSpacing={"tighter"}>
             Financial Times
@@ -21,7 +21,7 @@ const Index = () => {
       </Box>
 
       {/* Main Headline Section */}
-      <Box as="section" bg="gray.100" py={12}>
+      <Box as="section" bg="#f3f2f1" py={12}>
         <Container maxW="container.lg">
           <Heading as="h2" size="2xl" mb={4}>
             Featured Article Headline
@@ -89,7 +89,7 @@ const Index = () => {
       </Box>
 
       {/* Footer */}
-      <Box as="footer" bg="gray.800" color="white" py={6}>
+      <Box as="footer" bg="#00456e" color="white" py={6}>
         <Container maxW="container.lg">
           <Flex justify="space-between" align="center">
             <Text>&copy; 2023 Financial Times</Text>
